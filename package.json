@@ -1,0 +1,21 @@
+{
+  "name": "meanstalk",
+  "version": "1.0.0",
+  "description": "meanstalk authentication passport",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app"
+  },
+  "dependencies": {
+    "express":"*",
+    "mongoose":"*",
+    "body-parser": "*",
+    "bcryptjs": "*",
+    "cors":"*",
+    "passport": "*",
+    "passport-jwt": "*"
+  },
+  "author": "the ownstalk company",
+  "license": "ISC"
+}
